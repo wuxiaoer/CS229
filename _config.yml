@@ -3,6 +3,7 @@
 name: Machine learning
 description: A blog about machine learning
 
+destination: jekyll_build
 # url is currently only used only for the RSS feed in feed.xml
 url: https://wuxiaoer.github.io/cs229
 
@@ -11,6 +12,10 @@ url: https://wuxiaoer.github.io/cs229
 # *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
 #     run it like so: jekyll serve --baseurl=''
 baseurl: /cs229
+
+
+# 配置时区
+timezone: Asia/Shanghai
 
 # This can be '' to hide the Github nav button
 github: 'wuxiaoer/cs229'
@@ -30,7 +35,7 @@ isso: ''
 disqus: ''
 
 permalink: /:year/:month/:day/:title.html
-paginate: 3
+paginate: 5 
 
 highlighter: rouge
 markdown: kramdown
