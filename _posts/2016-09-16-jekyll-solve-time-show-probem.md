@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "github博客文章时间显示问题"
-date: 2016-09-16 12:16:26 +0800
+date: 2016-09-14 12:16:26 +0800
 comments: true 
 ---
 
